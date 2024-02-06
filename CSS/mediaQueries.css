@@ -1,0 +1,178 @@
+@media screen and (max-width: 991px) {
+  :root {
+    --heading-xl: 9vw;
+    --heading-xl-lh: 8vw;
+    --heading-xl-lsg: -5px;
+
+    --heading-md: 5rem;
+    --heading-md-lh: 6rem;
+    --heading-md-lsg: -3px;
+
+    --heading-sm: 2.5rem;
+    --heading-sm-lh: 3rem;
+    --heading-sm-lsg: -1px;
+
+    --heading-h3: 1.75rem;
+    --heading-h3-lh: 100%;
+    --heading-h3-lsg: -2px;
+
+    --txtsz-md: 1.25rem;
+    --txtsz-md-lh: 2rem;
+
+    --labtxt: 1rem;
+    --labtxt-inv: 1rem;
+
+    --profile-pic: 6vw;
+  }
+
+  .about-me {
+    flex-direction: column-reverse;
+  }
+
+  .about-icons-text {
+    gap: 1rem;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .projects-sec {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .projects-right-grid {
+    gap: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --heading-xl: 4rem;
+    --heading-xl-lh: 12vw;
+    --heading-xl-lsg: -3px;
+
+    --heading-md: 3rem;
+    --heading-md-lh: 4rem;
+    --heading-md-lsg: -3px;
+
+    --heading-sm: 2rem;
+    --heading-sm-lh: 2rem;
+    --heading-sm-lsg: -1px;
+
+    --heading-h3: 1.75rem;
+    --heading-h3-lh: 100%;
+    --heading-h3-lsg: -2px;
+
+    --txtsz-md: 1.25rem;
+    --txtsz-md-lh: 2rem;
+
+    --labtxt: 0.8rem;
+    --labtxt-inv: 1rem;
+
+    --profile-pic: 4rem;
+  }
+
+  .paddingAll {
+    padding: 6vw 6vw 6vw 6vw;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .service-right-top {
+    flex-direction: column;
+  }
+
+  .service-gap {
+    gap: 1rem;
+  }
+
+  .line-hz {
+    height: 2px;
+  }
+
+  .line-vl {
+    width: 100%;
+    height: 2px;
+    background-color: #111;
+  }
+
+  .line-vl-none {
+    visibility: hidden;
+  }
+
+  .profile {
+    gap: 1rem;
+  }
+
+  .sub-title {
+    margin: 3rem 0 3rem 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  :root {
+    --heading-xl: 3.5rem;
+    --heading-xl-lh: 3rem;
+    --heading-xl-lsg: -1px;
+
+    --heading-md: 2.75rem;
+    --heading-md-lh: 3rem;
+    --heading-md-lsg: -2px;
+
+    --heading-sm: 2rem;
+    --heading-sm-lh: 2rem;
+    --heading-sm-lsg: -1px;
+
+    --heading-h3: 1.75rem;
+    --heading-h3-lh: 100%;
+    --heading-h3-lsg: -2px;
+
+    --txtsz-md: 1.25rem;
+    --txtsz-md-lh: 2rem;
+
+    --labtxt: 0.8rem;
+    --labtxt-inv: 1rem;
+
+    --profile-pic: 4rem;
+  }
+
+  .a {
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .paddingAll {
+    padding: 2rem;
+  }
+
+  .service-right-top {
+    gap: 2rem;
+  }
+
+  .service-gap {
+    gap: 0.8rem;
+  }
+
+  .padding-tp-bt {
+    padding: 2rem 0 2rem 0;
+  }
+
+  .sub-title {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .hero {
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  /* .home-img {
+    background-size: auto;
+  } */
+}
