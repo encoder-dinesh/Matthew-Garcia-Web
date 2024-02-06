@@ -139,6 +139,11 @@
 
     --profile-pic: 4rem;
   }
+  
+  .menu-container {
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+  }
 
   .a {
     font-size: 0.8rem;
