@@ -458,6 +458,12 @@ body {
   background-color: #1e1e21;
 }
 
+.cta-sec-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cta {
   text-align: center;
   gap: 2rem;
