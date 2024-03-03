@@ -208,6 +208,14 @@ body {
   background-color: #f5f3ef;
   color: #111111;
   border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  transition: 0.5s ease;
+}
+
+.label-text-inverse:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
 }
 
 .project-img {
