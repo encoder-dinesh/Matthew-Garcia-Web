@@ -100,12 +100,12 @@
   justify-content: space-between;
 }
 
-.top-nav-item img {
+.top-nav-item svg {
   width: 2rem;
   cursor: pointer;
 }
 
-.top-nav-item img:hover {
+.top-nav-item svg:hover {
   transform: rotate(180deg);
   transition: 1s ease;
 }
