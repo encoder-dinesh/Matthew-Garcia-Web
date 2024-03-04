@@ -210,6 +210,10 @@
     letter-spacing: -0.2rem;
   }
 
+  .navLinks {
+    padding-top: 80px;
+  }
+
   /* .home-img {
     background-size: auto;
   } */
