@@ -1,3 +1,11 @@
+@media screen and (min-width: 1960px){
+  .navLinks a {
+    font-size: 10rem;
+    line-height: 10rem;
+    letter-spacing: -0.2rem;
+  }
+}
+
 @media screen and (max-width: 991px) {
   :root {
     --heading-xl: 9vw;
@@ -111,6 +119,16 @@
   .sub-title {
     margin: 3rem 0 3rem 0;
   }
+
+  .arrowIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navLinks a {
+    line-height: 7rem;
+    letter-spacing: -0.2rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -176,6 +194,20 @@
 
   .hero {
     padding: 4rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  .arrowIcon {
+    display: none;
+  }
+
+  .closeIconForMenu svg {
+    width: 2rem;
+  }
+
+  .navLinks a {
+    font-size: 3.8rem;
+    line-height: 7rem;
+    letter-spacing: -0.2rem;
   }
 
   /* .home-img {
